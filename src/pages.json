@@ -1,0 +1,102 @@
+{
+	"pages": [
+		{
+      "path": "pages/home/home",
+      "aliasPath": "/",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true,
+        "mp-weixin": {
+        },
+        "h5": {
+          "titleNView": false
+        },
+        "mp-alipay": {
+          "transparentTitle": "none",
+          "allowsBounceVertical": "NO",
+          "enableScrollBar": "NO"
+        },
+        "app-plus": {
+          "titleNView": true,
+          "scrollIndicator": "none"
+        }
+      }
+    },
+		{
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "",
+        "backgroundColorTop": "#4474ff", 
+        "mp-weixin": {
+          "navigationStyle": "custom",
+          "backgroundColor": "#4474ff",
+          "navigationBarTextStyle": "white"
+        },
+        "mp-alipay": {
+          "transparentTitle": "none",
+          "titlePenetrate": "NO",
+          "allowsBounceVertical": "NO",
+          "enableScrollBar": "NO"
+        },
+        "app-plus": {
+          "titleNView": false,
+          "scrollIndicator": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/categories/categories",
+      "style": {
+        "navigationBarTitleText": "分类",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/tags/tags",
+      "style": {
+        "navigationBarTitleText": "标签",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/tagList/tagList",
+      "style": {
+        "navigationBarTitleText": "cqzhong's blog",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "cqzhong's blog"
+      }
+    }
+	],
+	"globalStyle": {
+    "backgroundColorTop": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "cqzhong's blog",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F7F7F7"
+  },
+  "tabBar": {
+    "color": "#585F72",
+    "selectedColor": "#177AFA",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/image/common/tabBar/tabBar_home_unselected.png",
+        "selectedIconPath": "static/image/common/tabBar/tabBar_home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/image/common/tabBar/tabBar_mine_unselected.png",
+        "selectedIconPath": "static/image/common/tabBar/tabBar_mine_selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+unpackage/dist/**
+unpackage/res/**
+.vscode/
+.DS_Store
+RecentPlaces.lnk
+.idea/
+dist/dev/
+dist/build/
