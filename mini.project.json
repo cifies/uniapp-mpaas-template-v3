@@ -1,0 +1,29 @@
+{
+  "brand": "mPaaS uniapp",
+  "miniprogramRoot": "dist/build/mp-alipay",
+  "scripts": {
+    "beforeCompile": "npm run build:mp-alipay -- --watch",
+    "beforePreview": "npm run build:mp-alipay",
+    "beforeUpload": "npm run build:mp-alipay"
+  },
+  "exclude": [
+    "src/**",
+    "node_modules",
+    "node_modules/**",
+    "app.json",
+    "babel.config.js",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js"
+  ],
+  "precompileWatch": {
+    "selfWatch": true,
+    "restart": true,
+    "exclude": [
+      "dist/build/mp-alipay/**",
+      "*.md"
+    ],
+    "ignoreBuiltInExts": false
+  },
+  "component2": true
+}
